@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  gap: 1rem;
+}
+
+.container {
+  height: 500px;
+  width: 100%;
+  background: rgb(65, 65, 190);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 0.5rem;
+  cursor: move;
+  border-radius: 0.125rem;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+h1 {
+  color: white;
+  align-self: center;
+}
